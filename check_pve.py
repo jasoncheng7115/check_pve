@@ -525,6 +525,9 @@ class CheckPVE:
                                 help='Critical treshold for check value')
         check_opts.add_argument('-M', dest='values_mb', action='store_true', default=False,
                                 help='Values are shown in MB (if available). Tresholds are also treated as MB values')
+        check_opts.add_argument('-H', dest='',
+                                help='nothing')
+
 
         options = p.parse_args()
 
